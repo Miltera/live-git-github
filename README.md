@@ -14,3 +14,9 @@ Comandos realizados:
 - git remote add "repo" "link para o hub": Adiciona o repositório ao serviço externo como o GitHub;
 
 - git push -u "repo" "branch": Confirma o envio do repositório junto de seus arquivos ao GitHub;
+
+- git clone "link repo": Faz o download do repositório enviado ou hub;
+
+- git log: Exibe os pontos de história (commits) do repositório;
+
+- git checkout -b "nome da branch": Cria uma ramificação (branch) do repositório, para trabalho isolado;

@@ -8,4 +8,10 @@ app.get('/test', (req, res) => {
   })
 })
 
+app.get('/person/:name', (req, res) => {
+  return res.json({
+    message: `Hello ${req.params.name}!`
+  })
+})
+
 app.listen(3333);
